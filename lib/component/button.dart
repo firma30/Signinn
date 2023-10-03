@@ -13,6 +13,8 @@ class RoundedButton extends StatelessWidget {
     return InkWell(
       onTap: onSentuh,
       child: Container(
+        width: 40,
+        height: double.infinity,
         padding: const EdgeInsets.all(10),
         decoration: BoxDecoration(
             color: Colors.red, borderRadius: BorderRadius.circular(15)),
